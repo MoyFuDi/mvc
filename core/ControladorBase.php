@@ -26,7 +26,7 @@
 			}
 
 			require_once 'core/AyudaVistas.php';
-			$helpers = new AyudaVistas.php;
+			$helpers = new AyudaVistas();
 
 			require_once 'view/'.$vistas.'View.php';
 		}
@@ -37,4 +37,3 @@
 
 		//Métodos para los controladores
 	}
-	
